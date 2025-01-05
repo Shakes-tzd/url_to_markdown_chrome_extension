@@ -1,0 +1,31 @@
+# Node dependencies (if you use Node.js for dev dependencies)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Output files
+*.zip
+*.tar.gz
+
+# Build directory (if used)
+build/
+
+# Personal or sensitive information
+.env

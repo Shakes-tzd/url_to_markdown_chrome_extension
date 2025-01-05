@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Webpage to Markdown Converter",
+  "description": "Convert the current webpage to Markdown using URL to Markdown service.",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://urltomarkdown.com/*"]
+}
